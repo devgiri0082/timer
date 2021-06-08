@@ -11,6 +11,7 @@ export default function EachTime({ index, timings, setTimings }) {
         return (() => {
             clearInterval(timer);
         })
+         // eslint-disable-next-line 
     }, [timings])
     return (
         <div className="eachTime">
